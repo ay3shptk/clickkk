@@ -36,7 +36,8 @@
 .clst {
   text-align: right;
   transition: all 200ms ease;
-  display : none;
+  opacity : 0;
+  transform: scale (0.1);
   margin-right : 1vw;
 }
 .copen .c {
@@ -46,7 +47,9 @@
 }
 
 .copen .clst {
-  display: block;
+  transform: scale(1);
+  display : block;
+  transition: all 200ms ease;
 }
 
 a { color: black;}
