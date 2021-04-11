@@ -29,7 +29,6 @@
 }
 
 .c:hover span,
-.copen .c span,
 .copen .c span {
   transform: scale(1.25);
 }
