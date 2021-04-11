@@ -13,3 +13,5 @@ include("https://cdnjs.cloudflare.com/ajax/libs/cash/8.1.0/cash.min.js", functio
 var head = document.getElementsByTagName("HEAD")[0],
     link = document.createElement("link");
 link.rel = "stylesheet", link.type = "text/css", link.href = "https://cdn.jsdelivr.net/gh/ayshptk/clickkk/optimized/style.css", head.appendChild(link);
+
+
