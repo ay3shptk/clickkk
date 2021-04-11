@@ -50,6 +50,7 @@
   transform: scale(1);
   display : block;
   transition: all 200ms ease;
+  opacity : 1;
 }
 
 a { color: black;}
