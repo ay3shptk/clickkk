@@ -51,7 +51,7 @@
   display : block;
   transition: all 200ms ease;
   opacity : 1;
-  transform-origin: bottom;
+  transform-origin: bottom center ;
 }
 
 a { color: black;}
