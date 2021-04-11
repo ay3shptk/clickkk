@@ -1,1 +1,5 @@
-function include(e,t){var a=document.getElementsByTagName("head")[0],c=document.createElement("script");c.src=e,c.type="text/javascript",c.onload=c.onreadystatechange=function(){c.readyState?"complete"!==c.readyState&&"loaded"!==c.readyState||(c.onreadystatechange=null,t()):t()},a.appendChild(c)}include("https://cdnjs.cloudflare.com/ajax/libs/cash/8.1.0/cash.min.js",function(){$(".c").on("click",function(){$(".cw").toggleClass("copen")})});
+// $(".c").on("click", function() {$(".cw").toggleClass("copen");});
+        
+document.querySelector('.more-button').addEventListener('click', function () {
+    document.querySelector('.list-container').classList.toggle('active');
+});
