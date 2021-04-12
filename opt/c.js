@@ -1,1 +1,0 @@
-var head=document.getElementsByTagName("HEAD")[0],link=document.createElement("link");link.rel="stylesheet",link.type="text/css",link.href="https://cdn.jsdelivr.net/gh/ayshptk/clickkk/optimized/style.css",head.appendChild(link),$(".c").on("click",function(){$(".cw").toggleClass("copen")});
