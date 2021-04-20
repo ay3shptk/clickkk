@@ -4,7 +4,7 @@ var head = document.getElementsByTagName("HEAD")[0],
   link = document.createElement("link");
 (link.rel = "stylesheet"),
   (link.type = "text/css"),
-  (link.href = "https://cdn.jsdelivr.net/gh/ayshptk/clickkk/dist/style.css"),
+  (link.href = "https://cdn.jsdelivr.net/gh/ayshptk/clickkk/dist/c.css"),
   head.appendChild(link);
 
 // document.ready without jQuery.
